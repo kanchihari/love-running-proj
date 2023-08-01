@@ -95,3 +95,25 @@ margin-top: 47px;
 footer{
     background-color: orange;
 }
+/*Media query:tbalets and larger screens(768px and up) */
+@media screen and (min-width: 768px) {
+    /*Header*/
+    nav{
+        display: block;
+        position: relative;
+        box-shadow: none;
+        padding-right: 1rem;
+        width: fit-content;
+
+    }
+    #menu{
+        
+        display: flex;
+    }
+    #menu > li{
+        padding-left: 1rem;
+    }
+    .nav-toggel-label{
+        display: none;
+    }
+}
