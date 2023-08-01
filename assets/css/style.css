@@ -116,4 +116,14 @@ footer{
     .nav-toggel-label{
         display: none;
     }
+    #logo{
+        margin-top: 0 0.5rem;
+        font-size: 280%;
+        line-height: 79px;
+    }
+    /*main content*/
+    main{
+        /*push main content down to accomidate large header*/
+        margin-top: 79px;
+    }
 }
