@@ -3,7 +3,7 @@
 
 
 /*asterisk wildcard selector to override defalut styles added by the browser*/
-body {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -28,6 +28,10 @@ position: fixed;
 z-index: 99;
 width: 100%;
 box-shadow: 0 2px 2px #3a3a3a;
+display: flex;
+justify-content: space-between;
+align-items: baseline;
+
 }
 
 header a{
@@ -56,7 +60,30 @@ h1{
 .active{
     border-bottom: solid 1px #3a3a3a;
 }
+/* navbar style with dropdown toggle*/
+nav{
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: none;
+    top: 100%;
+}
 
+/*nav-toggel*/
+#nav-toggel:checked~nav{
+    display: block;
+}
+
+#nav-toggel{
+    display: none;
+}
+
+.nav-toggel-label{
+    font-size: 2rem;
+}
 /*Maincontent*/
 main {
 background-color: lightblue;
