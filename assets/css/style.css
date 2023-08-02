@@ -58,6 +58,7 @@ header a{
 .active{
     border-bottom: solid 1px #3a3a3a;
 }
+
 /* navbar style with dropdown toggle*/
 nav{
     position: absolute;
@@ -113,6 +114,33 @@ margin-top: 47px;
 color: #ffffff;
 }
 
+#reasons {
+    margin: 20px auto;
+    width: 90%;
+
+}
+
+#reasons h2 {
+    text-align: center;
+    font-size: 280%;
+    margin-bottom: 20px;
+}
+
+#benefits-physical > div,
+#benefits-mental > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p{
+    padding: 0 20px;
+}
+
+#benefits hr{
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
 /*footer*/
 #social-networks{
     text-align: center;
@@ -121,11 +149,13 @@ color: #ffffff;
     justify-content: space-evenly;
     list-style-type: none;
 }
+
 #social-networks i{
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
 }
+
 /*Media query:tbalets and larger screens(768px and up) */
 @media screen and (min-width: 768px) {
     /*Header*/
@@ -165,6 +195,7 @@ color: #ffffff;
 
     }
 }
+
 /* Large devices (laptops and desktops, 992px and up)*/
 @media screen and (min-width: 998px) {
     #menu a:hover {
