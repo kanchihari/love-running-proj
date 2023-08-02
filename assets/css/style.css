@@ -188,7 +188,17 @@ color: #ffffff;
     color: #fafafa;
 }
 
-/*footer*/
+/*Gallery page*/
+#photos img{
+    width: 100%;
+    line-height: 1em;
+}
+/*to remove white space between the images in Gallery page*/
+#photos {
+    line-height: 0;
+}
+
+/*Footer*/
 #social-networks{
     text-align: center;
     padding: 20px 0;
